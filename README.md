@@ -1,8 +1,21 @@
 # MTurk Cyberbullying Survey Generator
 
+```
+Repository Structure:
+InstaCTSR-Code/
+├── ML Models Code/
+│   ├── basicml.ipynb
+│   ├── bert.ipynb
+│   ├── cyberbert.ipynb
+│   └── roberta.ipynb
+└── MTurk Code/
+    └── Mturk.js
+```
+
+## MTurk Code
 A Node.js script that generates HTML surveys for Amazon Mechanical Turk to collect cyberbullying annotations on Instagram comments.
 
-## What it does
+### What it does
 
 Takes Instagram session data and generates interactive HTML surveys where MTurk workers annotate:
 
@@ -39,17 +52,16 @@ Takes Instagram session data and generates interactive HTML surveys where MTurk 
 - Participants in the comments
 - People depicted in the picture
 - Other
-  
-## Usage
+
+### Usage
 
 ```bash
 node Mturk.js
 ```
 
-# ML Models
+## ML Models Code
 
-The ML Models directory contains code for cyberbullying detection using:
-
+Contains machine learning models for cyberbullying detection using:
 - Logistic Regression (LR)
 - Naïve Bayes (NB)
 - Random Forest (RF)

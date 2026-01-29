@@ -1,0 +1,11 @@
+[project]
+name = "ctsr-analytics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "connectorx>=0.4.4",
+    "polars[pyarrow]>=1.36.1",
+    "psycopg>=3.3.2",
+]
